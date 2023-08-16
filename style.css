@@ -1,0 +1,36 @@
+body {
+    margin: 20px;
+    color: #2b2839;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.avatar>img {
+    width: 100%;
+    display: block;
+}
+
+.avatar {
+    width: 150px;
+    border: 2px solid #ffc8dd;
+    /* border-radius: 10px; */
+}
+
+h3 {
+    color: white;
+}
+
+h3:hover {
+    color: #ffc8dd;
+}
+.card {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    margin: auto;
+    border-bottom: 7px solid #f58bb2;
+    background-color: #a2d2ff;
+    border-radius: 10px;
+}
